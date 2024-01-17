@@ -1,0 +1,51 @@
+/* Add this CSS to style the Product Details Page */
+
+/* Product Details Section Styles */
+.product-details-container {
+  display: flex;
+  max-width: 800px;
+  margin: 100px auto;
+}
+
+.product-image {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.product-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-info {
+  flex: 1;
+  padding: 20px;
+  margin-left: 10px;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 10px; */
+}
+
+.product-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  margin-bottom: 20px;
+}
+
+.product-info .price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.product-info button {
+  cursor: pointer;
+  border-radius: 8px;
+  background: #001066;
+  color: #fff;
+  padding: 10px 100px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
