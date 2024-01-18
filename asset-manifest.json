@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/azubishop/static/css/main.a1f7bab7.css",
-    "main.js": "/azubishop/static/js/main.a3b1d1e9.js",
+    "main.css": "/azubishop/static/css/main.f5207318.css",
+    "main.js": "/azubishop/static/js/main.6283f04c.js",
     "static/js/787.0d09ed15.chunk.js": "/azubishop/static/js/787.0d09ed15.chunk.js",
     "index.html": "/azubishop/index.html",
-    "main.a1f7bab7.css.map": "/azubishop/static/css/main.a1f7bab7.css.map",
-    "main.a3b1d1e9.js.map": "/azubishop/static/js/main.a3b1d1e9.js.map",
+    "main.f5207318.css.map": "/azubishop/static/css/main.f5207318.css.map",
+    "main.6283f04c.js.map": "/azubishop/static/js/main.6283f04c.js.map",
     "787.0d09ed15.chunk.js.map": "/azubishop/static/js/787.0d09ed15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1f7bab7.css",
-    "static/js/main.a3b1d1e9.js"
+    "static/css/main.f5207318.css",
+    "static/js/main.6283f04c.js"
   ]
 }
