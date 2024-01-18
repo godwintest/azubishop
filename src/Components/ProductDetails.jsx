@@ -1,10 +1,13 @@
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import "./ProductDetails.css";
+import { useCart } from "./CartContext";
 
-const ProductDetails = ({ addToCart }) => {
+const ProductDetails = () => {
   // Get product name from URL params
   const { name } = useParams();
+  const { addToCart } = useCart();
+  const navigate = useNavigate();
 
   // Dummy product data (replace with actual data from your local storage or API)
   const products = [
@@ -84,6 +87,7 @@ const ProductDetails = ({ addToCart }) => {
 
   const handleAddToCart = () => {
     addToCart(selectedProduct);
+    navigate("/cart");
   };
 
   return (
@@ -106,10 +110,10 @@ const ProductDetails = ({ addToCart }) => {
           {/* </Link> */}
         </div>
       </section>
-      {/* Cart Button */}
+      {/* Cart Button
       <div className="cart-button">
         <Link to="/cart">Go to Cart</Link>
-      </div>
+      </div> */}
     </div>
   );
 };
